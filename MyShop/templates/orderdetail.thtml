@@ -1,0 +1,19 @@
+<!-- orderdetail.thtml { -->
+<aside class="uk-alert uk-alert-large" data-uk-alert>
+  <a class="uk-alert-close uk-close" href=""></a>
+  <h4 class="title">{msg_title}</h4>
+  <div class="message">
+  <p h4 class="sysmessage" style="margin-bottom: 10px;"><img src="{layout_url}/images/info.png" alt=""  />{msg_text}</p>
+  </div>
+  <div>{item1}：{productname}</div>
+  <div>{item2}：{email}</div>
+  <div>{item3}：{quantity}</div>
+  <div>{total_amount_title}：￥ {total_amount_value}</div>
+  <div>
+    <form action="index.php" METHOD="POST">
+    <input type="hidden" name="mode" value="confirm">
+    <input type="submit" value="注文を確定する" style="margin-top:10px">
+    </form>
+  </div>
+</aside>
+<!-- } orderdetail.thtml -->

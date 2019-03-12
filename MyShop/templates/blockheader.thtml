@@ -1,0 +1,7 @@
+<!-- blockheader.thtml { -->
+<div id="admin-topmenu" class="clearfix">
+  <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/jp/developer/203x80_b.png" class="header_image">
+  <div><h2>{header_title}</h2></div>
+  <div><h6>{header_text}</h6></div>
+</div>
+<!-- } blockheader.thtml -->

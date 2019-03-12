@@ -1,0 +1,19 @@
+<!-- table.thtml { -->
+<div class="uk-overflow-container">
+    <table class="admin-list-table uk-table uk-table-hover uk-table-striped">
+    <thead>
+    <tr>
+      <th class="admin-list-headerfield">{h1}</th>
+      <th class="admin-list-headerfield">{h2}</th>
+      <th class="admin-list-headerfield">{h3}</th>
+      <th class="admin-list-headerfield">{h4}</th>
+      <th class="admin-list-headerfield">{h5}</th>
+    </tr>
+    </thead>
+    <tbody>
+    {list}
+    </tbody>
+    </table>
+</div>
+<p class="admin-list-message" style="">{notfound}</p>
+<!-- } table.thtml -->

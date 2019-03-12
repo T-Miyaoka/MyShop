@@ -1,0 +1,21 @@
+<!-- product.thtml { -->
+<section class="block-center">
+  <h2>商品の登録</h2>
+  <div class="block-center-content">
+  <form enctype="multipart/form-data" method="post" action="." class="compact uk-form">
+  <div class="admin_basic">
+    <dl class="form_block">
+      <dt><label>{meta1}</label></dt><dd><input type="text" name="name" value="{name}" class="size6"></dd>
+      <dt><label>{meta2}</label></dt><dd><textarea name="text" class="size6">{text}</textarea></dd>
+      <dt><label>{meta3}</label></dt><dd><input type="text" name="price" value="{price}" class="size6"></dd>
+      <dt><label>{meta4}</label></dt><dd><input type="checkbox" name="stop"></dd>
+      <dt><label>{meta5}</label></dt><dd><input type="file" name="upfile" class="size6"></dd>
+    </dl>
+  </div>
+  <div class="submit">
+    <button type="submit" name="mode" value="product_save" class="uk-button uk-button-primary">新規登録</button>
+  </div>
+  </div>
+</section>
+</form>
+<!-- } product.thtml -->

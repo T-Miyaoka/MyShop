@@ -1,0 +1,4 @@
+<?php
+    header("Location: ".$_SESSION['PAYPAL_URL'].$_SESSION["TOKEN"]);
+    exit; 
+?>

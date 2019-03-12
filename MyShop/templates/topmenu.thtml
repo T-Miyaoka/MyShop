@@ -1,0 +1,12 @@
+<!-- topmenu.thtml { -->
+<h2>{title}</h2>
+<div class="block-center-content">
+<div id="admin-topmenu" class="clearfix">
+  <img src="{icon_url}" class="admin-menu-icon" alt=""{xhtml}>
+  <div>
+    [ <a href="{site_admin_url}/plugins/myshop/index.php" class="admin-menu-item">{menu1}</a> | <a href="{site_admin_url}/plugins/myshop/index.php?mode=order" class="admin-menu-item">{menu2}</a> | <a href="{site_admin_url}/plugins/myshop/index.php?mode=config" class="admin-menu-item">{menu3}</a> | <a href="{site_admin_url}" class="admin-menu-item">{menu4}</a> ]
+  </div>
+  <div>{caption}</div>
+</div>
+</div>
+<!-- } topmenu.thtml -->

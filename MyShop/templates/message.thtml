@@ -1,0 +1,9 @@
+<!-- message.thtml { -->
+<aside class="uk-alert uk-alert-large" data-uk-alert>
+  <a class="uk-alert-close uk-close" href=""></a>
+  <h4 class="title">{msg_title}</h4>
+  <div class="message">
+  <p class="sysmessage"><img src="{layout_url}/images/info.png" alt=""  />{msg_text}</p>
+  </div>
+</aside>
+<!-- } message.thtml -->

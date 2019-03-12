@@ -1,0 +1,11 @@
+/* MyShop Plugin */
+
+.header_image {
+  float: left;
+  margin-right: 10px;
+}
+
+.product_edit {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
